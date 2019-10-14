@@ -1,0 +1,27 @@
+{
+    "name": "JSON2Type",
+    "version": "1.0.0",
+    "description": "JSON to PureScript Type converter",
+    "main": "index.js",
+    "author": "Arth K. Gajjar",
+    "license": "MIT",
+    "private": false,
+    "keywords": [
+        "JavaScript",
+        "PureScript"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iarthstar/JSON2Type.git"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "watch": "nodemon"
+    },
+    "dependencies": {
+        "ramda": "^0.26.1"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.3"
+    }
+}
